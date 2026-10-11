@@ -66,7 +66,6 @@ class Routes {
   static const String settingsAccounts = 'accounts';
 
   /// Displays language settings
-  static const String settingsLanguage = 'language';
 
   /// Displays folder naming settings
   static const String settingsFolders = 'folders';

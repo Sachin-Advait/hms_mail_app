@@ -51,9 +51,6 @@ class EnoughMailApp extends HookConsumerWidget {
     });
 
     final themeSettingsData = ref.watch(themeFinderProvider(context: context));
-    final languageTag = ref.watch(
-      settingsProvider.select((settings) => settings.languageTag),
-    );
     final routerConfig = ref.watch(routerConfigProvider);
 
     ref
@@ -79,15 +76,7 @@ class EnoughMailApp extends HookConsumerWidget {
         cupertinoTheme: themeSettingsData.cupertinoTheme,
       ),
     );
-    if (languageTag == null) {
-      return app;
-    }
-
-    return Localizations.override(
-      context: context,
-      locale: Locale(languageTag),
-      child: app,
-    );
+    return app;
   }
 }
 

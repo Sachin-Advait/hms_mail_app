@@ -50,11 +50,6 @@ class SettingsUiElements extends _$SettingsUiElements {
         onTap: () => context.pushNamed(Routes.settingsDefaultSender),
       ),
       UiSettingsElement(
-        type: UiSettingsType.language,
-        title: text.languageSettingTitle,
-        onTap: () => context.pushNamed(Routes.settingsLanguage),
-      ),
-      UiSettingsElement(
         type: UiSettingsType.folders,
         title: text.settingsFolders,
         onTap: () => context.pushNamed(Routes.settingsFolders),

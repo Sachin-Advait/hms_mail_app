@@ -296,11 +296,6 @@ GoRoute get _settingsRoute => GoRoute(
           builder: (context, state) => const SettingsFoldersScreen(),
         ),
         GoRoute(
-          name: Routes.settingsLanguage,
-          path: Routes.settingsLanguage,
-          builder: (context, state) => const SettingsLanguageScreen(),
-        ),
-        GoRoute(
           name: Routes.settingsReadReceipts,
           path: Routes.settingsReadReceipts,
           builder: (context, state) => const SettingsReadReceiptsScreen(),
