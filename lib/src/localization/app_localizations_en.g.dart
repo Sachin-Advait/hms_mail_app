@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get signature => 'Sent with Maily';
+  String get signature => 'Sent from HMS Mail';
 
   @override
   String get actionCancel => 'Cancel';
@@ -51,20 +51,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionAddressSearch => 'Search';
 
   @override
-  String get splashLoading1 => 'Maily starting...';
+  String get splashLoading1 => 'HMS Mail starting...';
 
   @override
-  String get splashLoading2 => 'Getting your Maily engine ready...';
+  String get splashLoading2 => 'Getting your HMS Mail engine ready...';
 
   @override
-  String get splashLoading3 => 'Launching Maily in 10, 9, 8...';
+  String get splashLoading3 => 'Launching HMS Mail in 10, 9, 8...';
 
   @override
-  String get welcomePanel1Title => 'Maily';
+  String get welcomePanel1Title => 'HMS Mail';
 
   @override
   String get welcomePanel1Text =>
-      'Welcome to Maily, your friendly and fast email helper!';
+      'Welcome to HMS Mail, your friendly and fast email helper!';
 
   @override
   String get welcomePanel2Title => 'Accounts';
@@ -307,7 +307,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get drawerEntryAbout => 'About Maily';
+  String get drawerEntryAbout => 'About HMS Mail';
 
   @override
   String get drawerEntrySettings => 'Settings';
@@ -604,7 +604,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get legaleseUsage =>
-      'By using Maily you agree to our [PP] and to our [TC].';
+      'By using HMS Mail you agree to our [PP] and to our [TC].';
 
   @override
   String get legalesePrivacyPolicy => 'Privacy Policy';
@@ -614,7 +614,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutApplicationLegalese =>
-      'Maily is free software published under the GNU General Public License.';
+      'HMS Mail is based on Maily by Enough Software, free software published under the GNU General Public License.';
 
   @override
   String get feedbackActionSuggestFeature => 'Suggest a feature';
@@ -623,13 +623,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get feedbackActionReportProblem => 'Report a problem';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Help developing Maily';
+  String get feedbackActionHelpDeveloping => 'Help developing HMS Mail';
 
   @override
   String get feedbackTitle => 'Feedback';
 
   @override
-  String get feedbackIntro => 'Thank you for testing Maily!';
+  String get feedbackIntro => 'Thank you for testing HMS Mail!';
 
   @override
   String get feedbackProvideInfoRequest =>
@@ -667,13 +667,14 @@ class AppLocalizationsEn extends AppLocalizations {
       'Show only the text of messages';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'How should Maily open links?';
+  String get settingsSecurityLaunchModeLabel =>
+      'How should HMS Mail open links?';
 
   @override
   String get settingsSecurityLaunchModeExternal => 'Open links externally';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Open links in Maily';
+  String get settingsSecurityLaunchModeInApp => 'Open links in HMS Mail';
 
   @override
   String get settingsActionAccounts => 'Manage accounts';
@@ -708,7 +709,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'What names do you prefer for your folders?';
 
   @override
-  String get folderNamesSettingLocalized => 'Names given by Maily';
+  String get folderNamesSettingLocalized => 'Names given by HMS Mail';
 
   @override
   String get folderNamesSettingServer => 'Names given by the service';
@@ -829,30 +830,30 @@ class AppLocalizationsEn extends AppLocalizations {
       'Adapt the security settings to your personal needs.';
 
   @override
-  String get securityUnlockWithFaceId => 'Unlock Maily with Face ID.';
+  String get securityUnlockWithFaceId => 'Unlock HMS Mail with Face ID.';
 
   @override
-  String get securityUnlockWithTouchId => 'Unlock Maily with Touch ID.';
+  String get securityUnlockWithTouchId => 'Unlock HMS Mail with Touch ID.';
 
   @override
-  String get securityUnlockReason => 'Unlock Maily.';
+  String get securityUnlockReason => 'Unlock HMS Mail.';
 
   @override
-  String get securityUnlockDisableReason => 'Unlock Maily to turn off lock.';
+  String get securityUnlockDisableReason => 'Unlock HMS Mail to turn off lock.';
 
   @override
   String get securityUnlockNotAvailable =>
       'Your device does not support biometrics, possibly you need to set up unlock options first.';
 
   @override
-  String get securityUnlockLabel => 'Lock Maily';
+  String get securityUnlockLabel => 'Lock HMS Mail';
 
   @override
-  String get securityUnlockDescriptionTitle => 'Lock Maily';
+  String get securityUnlockDescriptionTitle => 'Lock HMS Mail';
 
   @override
   String get securityUnlockDescriptionText =>
-      'You can choose to lock access to Maily, so that others cannot read your email even when they have access to your device.';
+      'You can choose to lock access to HMS Mail, so that others cannot read your email even when they have access to your device.';
 
   @override
   String get securityLockImmediately => 'Lock immediately';
@@ -864,11 +865,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get securityLockAfter30Minutes => 'Lock after 30 minutes';
 
   @override
-  String get lockScreenTitle => 'Maily is locked';
+  String get lockScreenTitle => 'HMS Mail is locked';
 
   @override
   String get lockScreenIntro =>
-      'Maily is locked, please authenticate to proceed.';
+      'HMS Mail is locked, please authenticate to proceed.';
 
   @override
   String get lockScreenUnlockAction => 'Unlock';
@@ -983,7 +984,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String editAccountFailureToConnectInfo(String name) {
-    return 'Maily could not connect $name.';
+    return 'HMS Mail could not connect $name.';
   }
 
   @override
@@ -1134,7 +1135,7 @@ class AppLocalizationsEn extends AppLocalizations {
     String incomingHost,
     String outgoingHost,
   ) {
-    return 'Maily cannot reach the specified mail server. Please check your incoming server setting \"$incomingHost\" and your outgoing server setting \"$outgoingHost\".';
+    return 'HMS Mail cannot reach the specified mail server. Please check your incoming server setting \"$incomingHost\" and your outgoing server setting \"$outgoingHost\".';
   }
 
   @override
@@ -1336,24 +1337,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get languageSettingTitle => 'Language';
 
   @override
-  String get languageSettingLabel => 'Choose the language for Maily:';
+  String get languageSettingLabel => 'Choose the language for HMS Mail:';
 
   @override
   String get languageSettingSystemOption => 'System language';
 
   @override
-  String get languageSettingConfirmationTitle => 'Use English for Maily?';
+  String get languageSettingConfirmationTitle => 'Use English for HMS Mail?';
 
   @override
   String get languageSettingConfirmationQuery =>
       'Please confirm to use English as your chosen language.';
 
   @override
-  String get languageSetInfo => 'Maily is now shown in English.';
+  String get languageSetInfo => 'HMS Mail is now shown in English.';
 
   @override
   String get languageSystemSetInfo =>
-      'Maily will now use the system\'s language or English if the system\'s language is not supported.';
+      'HMS Mail will now use the system\'s language or English if the system\'s language is not supported.';
 
   @override
   String get swipeSettingTitle => 'Swipe gestures';
@@ -1512,7 +1513,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get extensionsIntro =>
-      'With extensions e-mail service providers, companies and developers can adapt Maily with useful functionalities.';
+      'With extensions e-mail service providers, companies and developers can adapt HMS Mail with useful functionalities.';
 
   @override
   String get extensionsLearnMoreAction => 'Learn more about extensions';

@@ -22,7 +22,7 @@ class EmailService {
   static AsyncMimeSourceFactory mimeSourceFactory =
       const AsyncMimeSourceFactory(isOfflineModeSupported: false);
 
-  static const _clientId = Id(name: 'Maily', version: '1.0');
+  static const _clientId = Id(name: 'HMS Mail', version: '1.0');
 
   /// Creates a mime source for the given account
   Future<AsyncMimeSource> createMimeSource({

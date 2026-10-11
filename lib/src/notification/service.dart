@@ -171,9 +171,9 @@ class NotificationService {
     DarwinNotificationDetails? iosPlatformChannelSpecifics;
     if (Platform.isAndroid) {
       androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'maily',
+        'hms_mail',
         'Mail',
-        channelDescription: 'Maily',
+        channelDescription: 'HMS Mail',
         importance: Importance.max,
         priority: Priority.high,
         channelShowBadge: channelShowBadge,

@@ -50,11 +50,6 @@ class SettingsUiElements extends _$SettingsUiElements {
         onTap: () => context.pushNamed(Routes.settingsDefaultSender),
       ),
       UiSettingsElement(
-        type: UiSettingsType.design,
-        title: text.settingsActionDesign,
-        onTap: () => context.pushNamed(Routes.settingsDesign),
-      ),
-      UiSettingsElement(
         type: UiSettingsType.language,
         title: text.languageSettingTitle,
         onTap: () => context.pushNamed(Routes.settingsLanguage),
@@ -75,11 +70,6 @@ class SettingsUiElements extends _$SettingsUiElements {
         onTap: () => context.pushNamed(Routes.settingsReplyFormat),
       ),
       UiSettingsElement.divider(),
-      UiSettingsElement(
-        type: UiSettingsType.feedback,
-        title: text.settingsActionFeedback,
-        onTap: () => context.pushNamed(Routes.settingsFeedback),
-      ),
       UiSettingsElement(
         type: UiSettingsType.about,
         title: text.drawerEntryAbout,

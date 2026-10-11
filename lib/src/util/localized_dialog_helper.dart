@@ -2,10 +2,8 @@ import 'package:enough_platform_widgets/enough_platform_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:url_launcher/url_launcher.dart' as launcher;
 
 import '../localization/extension.dart';
-import '../widgets/legalese.dart';
 
 /// Helps to display localized dialogs
 class LocalizedDialogHelper {
@@ -20,35 +18,14 @@ class LocalizedDialogHelper {
     if (context.mounted) {
       showAboutDialog(
         context: context,
-        applicationName: 'Maily',
+        applicationName: 'HMS Mail',
         applicationVersion: version,
-        applicationIcon: Icon(CommonPlatformIcons.mailRead),
+        applicationIcon: Image.asset(
+          'assets/images/ic_launcher.png',
+          width: 48,
+          height: 48,
+        ),
         applicationLegalese: localizations.aboutApplicationLegalese,
-        children: [
-          TextButton(
-            child: Text(localizations.feedbackActionSuggestFeature),
-            onPressed: () async {
-              await launcher
-                  .launchUrl(Uri.parse('https://maily.userecho.com/'));
-            },
-          ),
-          TextButton(
-            child: Text(localizations.feedbackActionReportProblem),
-            onPressed: () async {
-              await launcher
-                  .launchUrl(Uri.parse('https://maily.userecho.com/'));
-            },
-          ),
-          TextButton(
-            child: Text(localizations.feedbackActionHelpDeveloping),
-            onPressed: () async {
-              await launcher.launchUrl(Uri.parse(
-                'https://github.com/Enough-Software/enough_mail_app',
-              ));
-            },
-          ),
-          const Legalese(),
-        ],
       );
     }
   }

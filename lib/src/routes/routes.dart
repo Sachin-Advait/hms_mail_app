@@ -65,12 +65,6 @@ class Routes {
   /// Displays the settings for all accounts
   static const String settingsAccounts = 'accounts';
 
-  /// Displays theme settings
-  static const String settingsDesign = 'design';
-
-  /// Displays feedback options
-  static const String settingsFeedback = 'feedback';
-
   /// Displays language settings
   static const String settingsLanguage = 'language';
 

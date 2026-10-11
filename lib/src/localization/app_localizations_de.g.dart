@@ -9,7 +9,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get signature => 'Mit Maily gesendet';
+  String get signature => 'Mit HMS Mail gesendet';
 
   @override
   String get actionCancel => 'Abbrechen';
@@ -51,20 +51,20 @@ class AppLocalizationsDe extends AppLocalizations {
   String get actionAddressSearch => 'Suchen';
 
   @override
-  String get splashLoading1 => 'Maily startet...';
+  String get splashLoading1 => 'HMS Mail startet...';
 
   @override
-  String get splashLoading2 => 'Maily fängt an zu arbeiten...';
+  String get splashLoading2 => 'HMS Mail fängt an zu arbeiten...';
 
   @override
-  String get splashLoading3 => 'Maily startet in 10, 9, 8...';
+  String get splashLoading3 => 'HMS Mail startet in 10, 9, 8...';
 
   @override
-  String get welcomePanel1Title => 'Maily';
+  String get welcomePanel1Title => 'HMS Mail';
 
   @override
   String get welcomePanel1Text =>
-      'Willkommen zu Maily, deinem freundlichen und schnellen E-Mail Helferlein!';
+      'Willkommen zu HMS Mail, deinem freundlichen und schnellen E-Mail Helferlein!';
 
   @override
   String get welcomePanel2Title => 'Konten';
@@ -309,7 +309,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get drawerEntryAbout => 'Über Maily';
+  String get drawerEntryAbout => 'Über HMS Mail';
 
   @override
   String get drawerEntrySettings => 'Einstellungen';
@@ -606,7 +606,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get legaleseUsage =>
-      'Durch die Nutzung von Maily stimmst du unserer [PP] und unseren [TC] zu.';
+      'Durch die Nutzung von HMS Mail stimmst du unserer [PP] und unseren [TC] zu.';
 
   @override
   String get legalesePrivacyPolicy => 'Datenschutzerlärung';
@@ -616,7 +616,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get aboutApplicationLegalese =>
-      'Maily ist freie Software, die unter der GPL GNU General Public License veröffentlicht ist.';
+      'HMS Mail ist freie Software, die unter der GPL GNU General Public License veröffentlicht ist.';
 
   @override
   String get feedbackActionSuggestFeature => 'Feature vorschlagen';
@@ -625,13 +625,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get feedbackActionReportProblem => 'Problem berichten';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Hilf Maily zu entwickeln';
+  String get feedbackActionHelpDeveloping => 'Hilf HMS Mail zu entwickeln';
 
   @override
   String get feedbackTitle => 'Feedback';
 
   @override
-  String get feedbackIntro => 'Danke, dass du Maily testest!';
+  String get feedbackIntro => 'Danke, dass du HMS Mail testest!';
 
   @override
   String get feedbackProvideInfoRequest =>
@@ -669,13 +669,14 @@ class AppLocalizationsDe extends AppLocalizations {
       'Nur den Text der Nachricht anzeigen';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'Wie soll Maily Links öffnen?';
+  String get settingsSecurityLaunchModeLabel =>
+      'Wie soll HMS Mail Links öffnen?';
 
   @override
   String get settingsSecurityLaunchModeExternal => 'Öffne Links extern';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Öffne Links in Maily';
+  String get settingsSecurityLaunchModeInApp => 'Öffne Links in HMS Mail';
 
   @override
   String get settingsActionAccounts => 'Konten verwalten';
@@ -710,7 +711,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Welche Ordner-Namen möchtest du nutzen?';
 
   @override
-  String get folderNamesSettingLocalized => 'Von Maily vorgegebene Namen';
+  String get folderNamesSettingLocalized => 'Von HMS Mail vorgegebene Namen';
 
   @override
   String get folderNamesSettingServer => 'Vom Maildienst gegebene Namen';
@@ -831,31 +832,31 @@ class AppLocalizationsDe extends AppLocalizations {
       'Passe die Sicherheitseinstellungen deinen persönlichen Ansprüchen an.';
 
   @override
-  String get securityUnlockWithFaceId => 'Entsicher Maily mit Face ID.';
+  String get securityUnlockWithFaceId => 'Entsicher HMS Mail mit Face ID.';
 
   @override
-  String get securityUnlockWithTouchId => 'Entsicher Maily mit Touch ID.';
+  String get securityUnlockWithTouchId => 'Entsicher HMS Mail mit Touch ID.';
 
   @override
-  String get securityUnlockReason => 'Entsicher Maily.';
+  String get securityUnlockReason => 'Entsicher HMS Mail.';
 
   @override
   String get securityUnlockDisableReason =>
-      'Entsicher Maily um die Sicherung zu deaktvieren.';
+      'Entsicher HMS Mail um die Sicherung zu deaktvieren.';
 
   @override
   String get securityUnlockNotAvailable =>
       'Dein Gerät unterstützt keine Biometrie-Absicherung. Vielleicht musst du zuerst die Displaysperre in den Geräteeinstellungen aktivieren.';
 
   @override
-  String get securityUnlockLabel => 'Maily Absichern';
+  String get securityUnlockLabel => 'HMS Mail Absichern';
 
   @override
-  String get securityUnlockDescriptionTitle => 'Maily Absichern';
+  String get securityUnlockDescriptionTitle => 'HMS Mail Absichern';
 
   @override
   String get securityUnlockDescriptionText =>
-      'Du kannst Maily absichern, so dass anderen deine E-Mails auch dann nicht lesen können, wenn sie Zugang zu deinem Gerät haben.';
+      'Du kannst HMS Mail absichern, so dass anderen deine E-Mails auch dann nicht lesen können, wenn sie Zugang zu deinem Gerät haben.';
 
   @override
   String get securityLockImmediately => 'Sofort absichern';
@@ -867,11 +868,11 @@ class AppLocalizationsDe extends AppLocalizations {
   String get securityLockAfter30Minutes => 'Nach 30 Minuten absichern';
 
   @override
-  String get lockScreenTitle => 'Maily ist gesichert';
+  String get lockScreenTitle => 'HMS Mail ist gesichert';
 
   @override
   String get lockScreenIntro =>
-      'Maily ist gesichert, bitte authentifiziere dich um weiter zu machen.';
+      'HMS Mail ist gesichert, bitte authentifiziere dich um weiter zu machen.';
 
   @override
   String get lockScreenUnlockAction => 'Entsichern';
@@ -985,7 +986,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String editAccountFailureToConnectInfo(String name) {
-    return 'Maily konnte $name nicht erreichen.';
+    return 'HMS Mail konnte $name nicht erreichen.';
   }
 
   @override
@@ -1140,7 +1141,7 @@ class AppLocalizationsDe extends AppLocalizations {
     String incomingHost,
     String outgoingHost,
   ) {
-    return 'Maily kann den angegeben Server nicht erreich. Bitte überprüfe die Einstellugen des Posteingang-Servers \"$incomingHost\" und des Postausgang-Servers \"$outgoingHost\".';
+    return 'HMS Mail kann den angegeben Server nicht erreich. Bitte überprüfe die Einstellugen des Posteingang-Servers \"$incomingHost\" und des Postausgang-Servers \"$outgoingHost\".';
   }
 
   @override
@@ -1347,13 +1348,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get languageSettingTitle => 'Sprache (Language)';
 
   @override
-  String get languageSettingLabel => 'Währe die Sprache für Maily:';
+  String get languageSettingLabel => 'Währe die Sprache für HMS Mail:';
 
   @override
   String get languageSettingSystemOption => 'Systemsprache';
 
   @override
-  String get languageSettingConfirmationTitle => 'Deutsch für Maily nutzen?';
+  String get languageSettingConfirmationTitle => 'Deutsch für HMS Mail nutzen?';
 
   @override
   String get languageSettingConfirmationQuery =>
@@ -1361,11 +1362,11 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get languageSetInfo =>
-      'Maily ist nun auf deutsch. Bitte starte die App neu.';
+      'HMS Mail ist nun auf deutsch. Bitte starte die App neu.';
 
   @override
   String get languageSystemSetInfo =>
-      'Maily wird nun die Systemsprache oder englisch nutzen, wenn die Systemprache nicht unterstützt wird. Bitte starte die App neu.';
+      'HMS Mail wird nun die Systemsprache oder englisch nutzen, wenn die Systemprache nicht unterstützt wird. Bitte starte die App neu.';
 
   @override
   String get swipeSettingTitle => 'Wischgesten';
@@ -1524,7 +1525,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get extensionsIntro =>
-      'Mit Erweiterungen können E-Mail-Dienstleister, Firmen und Entwickler:innen Maily mit hilfreichen Funktionen ergänzen.';
+      'Mit Erweiterungen können E-Mail-Dienstleister, Firmen und Entwickler:innen HMS Mail mit hilfreichen Funktionen ergänzen.';
 
   @override
   String get extensionsLearnMoreAction => 'Lerne mehr über Erweiterungen';

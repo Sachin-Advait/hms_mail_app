@@ -752,7 +752,7 @@ class _ReadReceiptButtonState extends ConsumerState<ReadReceiptButton> {
           final readReceipt = MessageBuilder.buildReadReceipt(
             mime,
             message.account.fromAddress,
-            reportingUa: 'Maily 1.0',
+            reportingUa: 'HMS Mail 1.0',
             subject: localizations.detailsReadReceiptSubject,
           );
 

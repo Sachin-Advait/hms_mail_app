@@ -411,7 +411,7 @@ class _IcalInteractiveMediaState extends ConsumerState<IcalInteractiveMedia> {
         calendar,
         status,
         originatingMessage: widget.message.mimeMessage,
-        productId: 'Maily',
+        productId: 'HMS Mail',
       );
       ScaffoldMessengerService.instance
           .showTextSnackBar(localizations, status.localization(localizations));

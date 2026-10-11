@@ -286,19 +286,9 @@ GoRoute get _settingsRoute => GoRoute(
           builder: (context, state) => const SettingsDefaultSenderScreen(),
         ),
         GoRoute(
-          name: Routes.settingsDesign,
-          path: Routes.settingsDesign,
-          builder: (context, state) => const SettingsDesignScreen(),
-        ),
-        GoRoute(
           name: Routes.settingsDevelopment,
           path: Routes.settingsDevelopment,
           builder: (context, state) => const SettingsDeveloperModeScreen(),
-        ),
-        GoRoute(
-          name: Routes.settingsFeedback,
-          path: Routes.settingsFeedback,
-          builder: (context, state) => const SettingsFeedbackScreen(),
         ),
         GoRoute(
           name: Routes.settingsFolders,

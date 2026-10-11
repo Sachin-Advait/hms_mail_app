@@ -10,7 +10,6 @@ export 'expansion_wrap.dart';
 export 'ical_composer.dart';
 export 'ical_interactive_media.dart';
 export 'icon_text.dart';
-export 'legalese.dart';
 export 'mail_address_chip.dart';
 export 'mailbox_selector.dart';
 export 'mailbox_tree.dart';
